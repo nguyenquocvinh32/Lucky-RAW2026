@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Microsoft YaHei', '微軟正黑體', 'PingFang TC', sans-serif;
+    background-color: #0c0407;
+    color: #f7e7ce;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+/* Offline-ready Serif font classes */
+.font-serif {
+  font-family: 'Cinzel', 'Noto Serif TC', 'Georgia', 'Songti SC', 'PMingLiU', serif;
+}
+
+/* Custom festive gold scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140407;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78350f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+

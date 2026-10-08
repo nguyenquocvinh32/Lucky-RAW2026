@@ -1,0 +1,6 @@
+{
+  "name": "Ritek Viet Nam - Quay Thưởng May Mắn 幸運抽獎",
+  "description": "Ứng dụng quay số trúng thưởng may mắn Tết dành cho Ritek Viet Nam - 錸德越南春節幸運抽獎系統",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
